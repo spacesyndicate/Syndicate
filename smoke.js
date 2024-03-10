@@ -5,9 +5,9 @@ canvas.width = canvas.clientWidth;
 canvas.height = canvas.clientHeight;
 
 let config = {
-  TEXTURE_DOWNSAMPLE: 5,
-  DENSITY_DISSIPATION: 0.92,
-  VELOCITY_DISSIPATION: 0.92,
+  TEXTURE_DOWNSAMPLE: 3,
+  DENSITY_DISSIPATION: 3.00,
+  VELOCITY_DISSIPATION: 3.00,
   PRESSURE_DISSIPATION: 0.8,
   PRESSURE_ITERATIONS: 15,
   CURL: 30,
