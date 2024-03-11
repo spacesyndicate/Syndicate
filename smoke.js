@@ -608,8 +608,8 @@ function multipleSplats(amount) {
     const color = [0.529, 0.357, 1.0];
     const x = canvas.width * Math.random();
     const y = canvas.height * Math.random();
-    const dx = 20 * (Math.random() - 0.5);
-    const dy = 20 * (Math.random() - 0.5);
+    const dx = 40 * (Math.random() - 0.5);
+    const dy = 40 * (Math.random() - 0.5);
     splat(x, y, dx, dy, color);
   }
 }
